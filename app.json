@@ -1,0 +1,23 @@
+{
+  "name": "GroupMe-Bot",
+  "scripts": {
+  },
+  "env": {
+    "BOT_ID": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
